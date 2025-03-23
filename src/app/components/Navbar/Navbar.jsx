@@ -59,7 +59,10 @@ export default function Navbar() {
                 }}
               >
                 <option value="#" selected>
-                  দূর্বলদের Master English Book Part - I
+                 RedRose Spoken English
+                </option>
+                <option value="https://www.masterenglishbook.com">
+                দূর্বলদের Master English Book Part - I
                 </option>
                 <option value="https://audio-vocabulary.vercel.app">
                   Audio vocabulary
