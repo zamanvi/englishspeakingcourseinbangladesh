@@ -59,7 +59,7 @@ export default function Navbar() {
                 }}
               >
                 <option value="#" selected>
-                 RedRose Spoken English
+                English speaking course in bangladesh
                 </option>
                 <option value="https://www.masterenglishbook.com">
                 দূর্বলদের Master English Book Part - I

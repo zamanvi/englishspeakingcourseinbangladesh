@@ -7,7 +7,7 @@ import getBook from "../../lib/getBook";
 import getChapterData from "../../lib/getChapterData";
 import Navbar from "./components/Navbar/Navbar";
 import ChapterList from "./components/ChapterList";
-const cardImage = `https://i.ibb.co/MPnmqw3/book-Cover-Fs.webp`;
+const cardImage = `https://i.ibb.co.com/992ymbtb/speaking-Course.jpg`;
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -15,11 +15,11 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata = {
-  title: "দূর্বলদের Master English Book Part - I",
+  title: "English speaking course in bangladesh",
   description:
-    "Easy English learning master book for all of us. Effective and Very attractive.",
+    "Easy English speaking course all. Effective and Very attractive.",
   verification: {
-    google: "M0MK3nrHsamo73lbLU8-lwBKzCFfoSBfyLi-kL0z160",
+    google: "YmIErIT14H2ODFVH799R98AMOj78AWXlM1BZsROeVGc",
   },
   openGraph: {
     images: [cardImage],

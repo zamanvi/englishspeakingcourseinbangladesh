@@ -10,7 +10,7 @@ const BookCover = () => {
       <div className="mb-20">
         <h1 className="font-bold text-xl md:text-2xl lg:text-3xl mb-5 text-[#075F8F] drop-shadow-md
 ">
-          RedRose Spoken English Chapters :-
+          English speaking course in bangladesh :-
         </h1>
 
         <div className="font-bold text-lg md:text-xl lg:text-[22px] mb-2 text-[#075f8fd7] flex flex-col gap-y-3">
