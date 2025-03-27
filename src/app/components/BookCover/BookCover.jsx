@@ -16,15 +16,15 @@ const BookCover = () => {
           English speaking course in bangladesh :-
         </h1>
 
-        <div className="flex flex-col gap-4 py-5">
-          <div className="font-semibold text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
+        <div className="flex flex-col gap-y-4 md:py-5">
+          <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
             <FaQuoteLeft />{" "}
             <p>
               মাত্র ১০ টি অধ্যায় - শেষ করে আপনি upgrade করুন spoken Reading writing & listening
             </p>{" "}
             <FaQuoteRight />
           </div>
-          <div className="font-semibold text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
+          <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
             <FaQuoteLeft />
             <p>
               Spoken English শিখতে আগ্রহী অথবা IELTS প্রত্যাশী, ইউনিভার্সিটি,
@@ -33,7 +33,7 @@ const BookCover = () => {
             </p>
             <FaQuoteRight />
           </div>
-          <div className="font-semibold text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
+          <div className="font-semibold text-[15px] md:text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
             <FaQuoteLeft />{" "}
             <p>
               অতি আগ্রহী শিক্ষার্থী অথবা সিরিয়াস লার্নারদের জন্য রয়েছে Zaman
