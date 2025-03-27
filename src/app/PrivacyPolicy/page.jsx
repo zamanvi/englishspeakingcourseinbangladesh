@@ -1,6 +1,6 @@
 const page = () => {
   return (
-    <div className="w-full mx-auto p-5">
+    <div className="w-full mx-auto py-5 px-3">
       <h1 className="text-2xl font-bold mb-4">Privacy Policy</h1>
       <p>
         <strong>Effective Date:</strong> March 27, 2025
