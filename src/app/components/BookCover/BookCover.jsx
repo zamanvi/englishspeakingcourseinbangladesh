@@ -4,20 +4,44 @@ import newApp1 from "../../../../public/image/NewApp1.jpg";
 import newApp2 from "../../../../public/image/NewApp2.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import { FaQuoteRight, FaQuoteLeft } from "react-icons/fa6";
 const BookCover = () => {
   return (
     <div className="w-11/12 md:w-10/12 lg:w-full mx-auto pt-5 ">
       <div className="mb-20">
-        <h1 className="font-bold text-xl md:text-2xl lg:text-3xl mb-5 text-[#075F8F] drop-shadow-md
-">
+        <h1
+          className="font-bold text-xl md:text-2xl lg:text-3xl mb-5 text-[#075f8f] drop-shadow-md
+"
+        >
           English speaking course in bangladesh :-
         </h1>
 
-        <div className="font-bold text-lg md:text-xl lg:text-[22px] mb-2 text-[#075f8fd7] flex flex-col gap-y-3">
-          <h2>Chapter 1: Greetings</h2>
-          <h2>Chapter 2: How to Make Sentence</h2>
-          <h2>Chapter 3: How to be flaunt</h2>
-          <h2>Chapter 4: How to write faster</h2>
+        <div className="flex flex-col gap-4 py-5">
+          <div className="font-semibold text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
+            <FaQuoteLeft />{" "}
+            <p>
+              মাত্র ১০ টি অধ্যায় - শেষ করে আপনি upgrade করুন spoken Reading writing & listening
+            </p>{" "}
+            <FaQuoteRight />
+          </div>
+          <div className="font-semibold text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
+            <FaQuoteLeft />
+            <p>
+              Spoken English শিখতে আগ্রহী অথবা IELTS প্রত্যাশী, ইউনিভার্সিটি,
+              কলেজ, স্কুল ও মাদ্রাসা সহ যেকোন বয়সের শিক্ষার্থীদের জন্য কোর্স টি
+              উপযুক্ত
+            </p>
+            <FaQuoteRight />
+          </div>
+          <div className="font-semibold text-[17px] bg-white text-[#075F8F]   p-3 md:p-4 rounded-lg shadow-md flex gap-2  hover:bg-[#075F8F] hover:text-white">
+            <FaQuoteLeft />{" "}
+            <p>
+              অতি আগ্রহী শিক্ষার্থী অথবা সিরিয়াস লার্নারদের জন্য রয়েছে Zaman
+              স্যারের paid কোর্স ।সরাসরি ক্লাসে ভর্তি হতে নিচের contact option
+              থেকে যোগাযোগ করুন
+            </p>
+            <FaQuoteRight />
+          </div>
         </div>
       </div>
 
