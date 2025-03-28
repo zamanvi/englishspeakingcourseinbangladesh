@@ -1,5 +1,5 @@
 'use client' // Error components must be Client Components
- 
+ //change for checking
 import { useEffect } from 'react'
  
 export default function Error({ error, reset }) {
