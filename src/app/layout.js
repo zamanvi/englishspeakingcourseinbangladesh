@@ -31,6 +31,7 @@ export default async function RootLayout({ children }) {
   const allChapters = bookData?.success?.data?.chapters?.data
   return (
     <html lang="en">
+    //testing
       <body className={`${ubuntu.className} max-w-[1366px] lg:w-11/12 mx-auto`}>
         {/* ----------Navbar For Small and Medium Device ------------- */}
         <Navbar />
